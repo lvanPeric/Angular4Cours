@@ -1,0 +1,26 @@
+.red{
+    background-color:red;
+}
+.green{
+    background-color:green;
+}
+.table-perso{
+    box-shadow:5px 5px 5px silver;
+
+}
+
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+@keyframes start {
+    from {transform:rotateY(90deg);}
+    to {transform:rotateY(0deg);}
+}
+
+table{
+    animation-name: start;
+    animation-duration: 4s;
+}
