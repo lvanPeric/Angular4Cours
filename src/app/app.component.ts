@@ -17,4 +17,9 @@ export class AppComponent {
     new Mouvement('Materiel', 34.45, new Date())
   ];
   hello:string = 'hello';
+
+
+  recuperationEvent(event){
+    alert(event);
+  }
 }
